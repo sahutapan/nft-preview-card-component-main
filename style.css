@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  }
+  #heading,#desc,.details,.created{
+    padding-top: 15px;
+  }
+  body{ 
+    background-color:hsl(217, 54%, 11%); 
+  }
+  .flex{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card{
+    background-color: hsl(216, 50%, 16%);
+    width: 250px;
+    height: 440px;
+    padding: 15px;
+    border-radius: 5%;  
+  }
+  .container{
+    position: relative;
+  }
+  .Equilibrium-img{
+    height: 250px;
+    width: 250px;
+    border-radius: 5%;
+    position: relative;
+  }
+  .view-icon{
+   position: absolute;
+   left: 0%;
+   top: 0%;
+   height: 250px;
+   width: 250px;
+   border-radius: 5%;
+   background-color: hsla(178, 100%, 50%, 0.50);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   opacity: 0;
+
+  }
+  p{
+    font-family: 'Outfit', sans-serif;
+  }
+  #heading{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 18px;
+  }
+  #desc{
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(215, 51%, 70%); 
+ 
+  }
+
+  .details{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    height:22px;
+    justify-content: space-between;
+    font-weight: 600;
+    padding-bottom: 15px ;
+  }
+  .price,.days,.created{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  .eth-price{
+    color: hsl(178, 100%, 50%);
+    
+  }
+  hr{
+    background-color: hsl(215, 32%, 27%);
+    border: 1px solid hsl(215, 32%, 27%);
+    
+  }
+  
+  .creator-img{
+    height: 25px;
+    width: 25px;
+    border: 1.5px solid hsl(0, 0%, 100%);
+    border-radius: 90%;
+    margin-right: 6px;
+  }
+  .eth-days,.creation{
+    color:hsl(215, 51%, 70%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .creator-name{
+    color:hsl(0, 0%, 100%);
+  }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.creator-name:hover,#heading:hover{
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.view-icon:hover{
+  opacity: 1;
+  cursor: pointer;
+}
